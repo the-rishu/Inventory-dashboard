@@ -1,0 +1,48 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    .top-sell{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .top-sell{
+        width: 45%;
+    }
+}
+.top-sell{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 20px;
+   padding: 5px;
+   height: 160px;
+   
+   background-color: rgb(80, 77, 77);
+   color: white;
+   font-weight: 400px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item-data{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+   
+}
+
+.item{
+    width: 20%;
+    text-align: center;
+    
+}
+.image{
+    width: 55px;
+    height: 60px;
+}
